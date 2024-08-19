@@ -1,0 +1,11 @@
+CompileFlags:
+  Add: [
+    -Wall,
+    -Wextra,
+    -Wshadow,
+    -Wno-unused-parameter,
+    -Wno-unused-function,
+    -target,
+    wasm32,
+  ]
+  Compiler: clang
